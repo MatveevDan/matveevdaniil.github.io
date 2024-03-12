@@ -1,0 +1,87 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+  }
+  h1 {
+    font-size: 77px;
+    line-height: 95.5px;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+  }
+  a:hover {
+    color: grey;
+  }
+  .logo1 {
+  object-fit: none;
+    position: relative;
+      top: 10px;
+      display: block;
+  }
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 16px 47px 17px 47px;
+  }
+  .menu ul {
+    display: flex;
+    gap: 17px;
+    list-style: none;
+    margin-bottom: 17px;
+    padding: 0px;
+  }
+  .img {
+    height: 906px;
+     background-image: url("https://i.postimg.cc/FHtWdfgW/Frame-16.png");
+     margin: 0 0 20px 0;
+     background-size: cover;
+    background-position: bottom;
+  }
+  .hero {
+   position: absolute;
+    padding: 31px 202px;
+    max-width: 596px;
+    text-align: center;
+
+  }
+  .hero h1 {
+    margin: 0 0px 10px 0;
+  }
+  .hero h2 {
+    color: grey;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 13px 20px 20px 20px;
+  }
